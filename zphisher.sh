@@ -7,16 +7,16 @@ command -v unzip > /dev/null 2>&1 || { echo >&2 "Unzip is not installed ! Instal
 }
 banner() {
 clear
-printf " \e[33;1m ______      _     _     _               \e[0m\n"
-printf " \e[33;1m|___  /     | |   (_)   | |              \e[0m\n"
-printf " \e[33;1m   / / _ __ | |__  _ ___| |__   ___ _ __ \e[0m\n"
-printf " \e[32;1m  / /\e[33;1m | '_ \| '_ \| / __| '_ \ / _ \ '__|\e[0m\n"
-printf " \e[32;1m / /__| |_) | | | | \__ \ | | |  __/ |   \e[0m\n"
-printf " \e[32;1m/_____| .__/|_| |_|_|___/_| |_|\___|_|   \e[0m\n"
+printf " \e[33;1m  ______      _     _     _               \e[0m\n"
+printf " \e[33;1m  |___ Abraham /     | |   (_)   | |              \e[0m\n"
+printf " \e[33;1m    / / _ __ | |__  _ ___| |__   ___ _ __ \e[0m\n"
+printf " \e[32;1m   / /\e[33;1m | '_© Abraham Dwamena \| '_ \| / __| '_ \ / _ \ '__|\e[0m\n"
+printf " \e[32;1m  / /__| |_) | | | | \__ \ | | |  __/ |   \e[0m\n"
+printf " \e[32;1m /_____| .__/|_| |_|_|Dwamena___/_| |_|\___|_|   \e[0m\n"
 printf " \e[33;1m      | |                                \e[0m\n"
-printf " \e[33;1m      |_|           \e[1;97m    Version 2.0      \e[0m\n"
+printf " \e[33;1m      |_|           \e[1;97m    By Abraham Version 2.0      \e[0m\n"
 printf " \n"
-printf " \e[92m[\e[37;1m+\e[92m]\e[0m\e[33;1m Tool Created by htr-tech (tahmid.rayat)\e[0m\n"
+printf " \e[92m[\e[37;1m+\e[92m]\e[0m\e[33;1m Tool Created by Abraham (AB-BOT Dev.Dwamena)\e[0m\n"
 printf " \n"
 printf " \e[36;1m.:.Select Any Attack for your Victim.:.\e[0m\n"
 printf " \n"
@@ -128,10 +128,10 @@ fi
 }
 facebook(){
 printf " \n"
-printf " \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[1;93m Traditional Login Page\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[1;93m Advanced Voting Poll Login Page\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[1;93m Fake Security Login Page\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m04\e[0m\e[1;31m]\e[0m\e[1;93m Facebook Messenger Login Page\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[1;93m Ab-Traditional Login Page\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[1;93m Ab-Advanced Voting Poll Login Page\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[1;93m Ab-Fake Security Login Page\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m04\e[0m\e[1;31m]\e[0m\e[1;93m Ab-Facebook Messenger Login Page\e[0m\n"
 printf "\e[0m\n"
 read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: \e[0m\e[1;96m\en' option
 if [[ $option == 1 || $option == 01 ]]; then
